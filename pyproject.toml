@@ -1,0 +1,16 @@
+[project]
+name = "modern-architecture"
+version = "0.1.0"
+description = "Upgrade the Tiny GPT with RoPE, RMSNorm, grouped-query attention, Flash Attention and a KV cache"
+requires-python = ">=3.12"
+dependencies = ["tiny-gpt"]
+
+[tool.uv.sources]
+tiny-gpt = { path = "../04-tiny-gpt", editable = true }
+
+[dependency-groups]
+dev = ["pytest>=8"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
