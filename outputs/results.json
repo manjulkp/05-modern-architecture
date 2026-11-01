@@ -1,0 +1,62 @@
+[
+ {
+  "name": "Baseline (Project 4 design)",
+  "parameters": 358560,
+  "val_mean": 1.8237934907277427,
+  "val_min": 1.8179932753245036,
+  "val_max": 1.8295937061309815,
+  "seconds_per_iter": 0.1061751869500149,
+  "tokens_per_second": 365.2169676442635,
+  "tokens_per_second_cached": 548.1816883470594
+ },
+ {
+  "name": "Flash Attention",
+  "parameters": 358560,
+  "val_mean": 1.8237934907277427,
+  "val_min": 1.8179932792981466,
+  "val_max": 1.8295937021573385,
+  "seconds_per_iter": 0.07054686800006311,
+  "tokens_per_second": 839.6853973003176,
+  "tokens_per_second_cached": 1065.4273893134832
+ },
+ {
+  "name": "RMSNorm",
+  "parameters": 357888,
+  "val_mean": 1.8241623520851133,
+  "val_min": 1.8202059547106424,
+  "val_max": 1.8281187494595845,
+  "seconds_per_iter": 0.09249033379997126,
+  "tokens_per_second": 287.6785890437308,
+  "tokens_per_second_cached": 408.36566175123687
+ },
+ {
+  "name": "RoPE",
+  "parameters": 352416,
+  "val_mean": 1.736420903603236,
+  "val_min": 1.7327280998229981,
+  "val_max": 1.7401137073834738,
+  "seconds_per_iter": 0.07869704817503226,
+  "tokens_per_second": 585.339204792729,
+  "tokens_per_second_cached": 812.9860959795826
+ },
+ {
+  "name": "Grouped-query attention",
+  "parameters": 330912,
+  "val_mean": 1.8360302428404491,
+  "val_min": 1.8255544702212017,
+  "val_max": 1.8465060154596964,
+  "seconds_per_iter": 0.07090660742495675,
+  "tokens_per_second": 359.65226728544013,
+  "tokens_per_second_cached": 434.89606083888384
+ },
+ {
+  "name": "All upgrades",
+  "parameters": 324096,
+  "val_mean": 1.746944574515025,
+  "val_min": 1.7430676857630412,
+  "val_max": 1.7508214632670085,
+  "seconds_per_iter": 0.0927091387747787,
+  "tokens_per_second": 356.1052263639915,
+  "tokens_per_second_cached": 683.194925241416
+ }
+]
